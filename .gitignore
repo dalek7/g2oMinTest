@@ -11,6 +11,8 @@ Debug/
 *.VC.db
 *.opendb
 
+x64/
+
 #cmake
 # See https://github.com/github/gitignore/blob/master/CMake.gitignore
 CMakeLists.txt.user
