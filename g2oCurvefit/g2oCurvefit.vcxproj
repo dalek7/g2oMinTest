@@ -69,12 +69,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\seung\work\repos\g2oMinTest\Thirdparty;C:\Users\seung\work\repos\g2oMinTest\Thirdparty\g2o;C:\Users\seung\work\repos\g2oMinTest\Thirdparty\eigen;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\seung\work\repos\g2oMinTest\Thirdparty\g2o\build\Release;$(LibraryPath)</LibraryPath>
+    <IncludePath></IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\seung\work\repos\g2oMinTest\Thirdparty;C:\Users\seung\work\repos\g2oMinTest\Thirdparty\g2o;C:\Users\seung\work\repos\g2oMinTest\Thirdparty\eigen;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\seung\work\repos\g2oMinTest\Thirdparty\g2o\build\Release;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\Thirdparty;..\Thirdparty\g2o;..\Thirdparty\eigen;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Thirdparty\g2o\build\Release;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

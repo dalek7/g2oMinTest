@@ -1,6 +1,7 @@
 // Simple curve-fitting example
-// based on https://github.com/RainerKuemmerle/g2o/blob/master/g2o/examples/data_fitting/curve_fit.cpp
-// Tested
+// based on 
+// https://github.com/RainerKuemmerle/g2o/blob/master/g2o/examples/data_fitting/curve_fit.cpp
+// Tested on
 // - Ubuntu 14.04 / 16.10
 // - OS X (10.9.5)
 //   : brew install homebrew/science/g2o
