@@ -1,6 +1,6 @@
 # g2oMinTest
 
-### g2o build
+### g2o build in Windows
 - Run CMake GUI and set source code to ./Thirdparty/g2o and where to build the binaries to ./Thirdparty/g2o/build
 - Press Configure and choose Visual Studio 14 2015 Win64 or Visual Studio 12 2013 Win64
 - Press Generate
